@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>
+            CREATE ACCOUNT
+        </title>
+        <style>
+            body {background-image: url("orchid.jpg");
+                background-repeat: no-repeat;
+                background-size: 100% auto;
+                height: 100%;
+                position: absolute;
+                width: 100%
+                        }
+        </style>
+    </head>
+    <body>
+        <div style="padding-left: 70px; padding-top: 30px;">
+        <h1>Create an account with MyDiary</h1>
+        <form action="/action_page.php">
+            First name:<br>
+            <input type="text" name="firstname"><br><br>
+
+            Last name:<br>
+            <input type="text" name="lastname"><br><br>
+
+            Gender:<br>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other<br><br>
+
+            Email:<br>
+            <input type="email" name="email"><br><br>
+
+            Create password:<br>
+            <input type="password"><br><br> 
+
+            confirm password:<br>
+            <input type="password"><br><br>
+            <input type="submit" value="Submit">
+        </form>  
+        </div>  
+    </body>
+</html>
