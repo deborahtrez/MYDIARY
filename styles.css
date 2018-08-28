@@ -1,9 +1,6 @@
 body {
     background-repeat: no-repeat;
-    background-size: 100% auto;
-    height: 100%;
-    position: absolute;
-    width: 100%
+    background-size: cover;
 }
 
 
